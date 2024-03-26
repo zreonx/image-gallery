@@ -12,7 +12,7 @@ const ImageGallery = () => {
   }
 
   return (
-    <div className='grid md:grid-cols-3 justify-center gap-6 mt-7 max-md:px-5 max-lg:px-5'>
+    <div className='grid md:grid-cols-3 justify-center gap-6 mt-7 max-md:px-5 max-lg:px-5 mb-10'>
       {images.map((image) => (
         <div
           key={image.imageUrl}
